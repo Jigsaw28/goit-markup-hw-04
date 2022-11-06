@@ -110,51 +110,55 @@ color: #2196F3;
 .auth-nav {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 .auth-nav .item:not(:last-child) {
     margin-right: 50px;
 }
 .contact-link {
-        display: flex;
-        align-items: center;
-        font-weight: 500;
-        line-height: 1.4px;
-        letter-spacing: 0.02em;
-        color: #757575;
-    
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.4px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    display: flex;
+    padding: 32px 0;
 }
 .page-header .nav-icon {
     margin-right: 10px;
     fill: currentColor;
+    background-size: cover;
 }
 
 
 /*Герой*/
 .hero {
     background-color: var(--hero-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero.jpg');
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    width: 1600px;
     background-position: center;
+    margin: auto;
     padding: 200px 0;
     text-align: center;
 }
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.44;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 .hero-btn {
     display: inline-block;
-    margin-top: 40px;
     width: 216px;
     height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: 0px;
 }
 .peculiarity, .clients, .team{
     padding: 94px 0;
@@ -172,8 +176,6 @@ color: #2196F3;
     margin-right: auto;
     width: 1200px; 
     padding: 0 15px; 
-    display: flex;
-    justify-content: center;
 }
 .peculiarity .pre-icon {
     display: flex;
@@ -374,6 +376,7 @@ color: #2196F3;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    align-items: baseline;
 }
 .footer .address-block {
     display: inline-block;
